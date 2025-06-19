@@ -20,12 +20,9 @@
 
 If you use this software in your research, please cite it as:
 
-**BibLaTeX (Modern LaTeX):**
-
 @software{gokkan_2021_real_time_pose,
   author       = {Ozan Gökkan},
   title        = {Real-Time Image Segmentation \& Pose Detection: Pepper Peduncle Pose Detection \& Segmentation},
   year         = {2021},
-  url          = {https://github.com/ogokk/real-time_objectDetection},
   version      = {1.0.0},
 }
