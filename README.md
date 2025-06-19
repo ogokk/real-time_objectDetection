@@ -1,4 +1,4 @@
-#Real-time Pepper Peduncle Detection & Segmentation
+## Real-time Pepper Peduncle Detection & Segmentation
 
 ![multi-sensor system](https://github.com/user-attachments/assets/8f9fce95-7c58-4c3b-9f88-ab64a3192059)
 
