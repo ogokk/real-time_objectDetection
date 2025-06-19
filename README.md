@@ -16,7 +16,7 @@
 ![peduncle_gif](https://github.com/user-attachments/assets/79d08d38-2888-4ea2-bb02-1661fc45b9e4)
 
 
-## Cite This Software
+## Citation
 
 If you use this software in your research, please cite it as:
 
