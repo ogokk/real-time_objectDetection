@@ -16,6 +16,12 @@
 ![peduncle_gif](https://github.com/user-attachments/assets/79d08d38-2888-4ea2-bb02-1661fc45b9e4)
 
 
+## Cite This Software
+
+If you use this software in your research, please cite it as:
+
+**BibLaTeX (Modern LaTeX):**
+
 @software{gokkan_2021_real_time_pose,
   author       = {Ozan Gökkan},
   title        = {Real-Time Image Segmentation \& Pose Detection: Pepper Peduncle Pose Detection \& Segmentation},
