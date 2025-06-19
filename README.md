@@ -25,6 +25,6 @@ If you use this software in your research, please cite it as:
   author       = {Ozan Gökkan},
   title        = {Real-time Pepper Peduncle Detection & Segmentation},
   year         = {2021},
-  url          = {\url{https://github.com/ogokk/real-time_objectDetection}}, 
+  url          = {https://github.com/ogokk/real-time_objectDetection}, 
   version      = {1.0.0},
 }
