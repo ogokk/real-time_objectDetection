@@ -1,0 +1,70 @@
+Installation Guide for pylon 6.x Camera Software Suite for Linux
+================================================================
+
+
+To install the pylon 6 Camera Software Suite for Linux, you need the
+correct installation package for your architecture. Basler provides packages
+for x86, x86_64, armhf, and arm64 platforms.
+
+This installation procedure assumes that you are going to install the
+pylon Camera Software Suite in the /opt/pylon directory. If you choose
+to install in a different directory, you'll have to modify the 
+directory names accordingly.
+Note: Root permissions are needed to write to /opt.
+
+To install the pylon 6 Camera Software Suite in /opt/pylon
+follow these steps:
+
+  1. Change to the directory that contains this INSTALL document.
+
+  2. Extract the pylon SDK into /opt/pylon:
+      sudo tar -C /opt/pylon -xzf ./pylon_*.tar.gz
+
+  3. Change access rights of the pylon folder:
+      sudo chmod 755 /opt/pylon
+      
+USB3 Vision cameras
+-------------------
+In order to use USB3 Vision cameras, you also need to install the udev-rules to
+set up permissions for Basler USB cameras by calling:
+      sudo /opt/pylon/share/pylon/setup-usb.sh
+
+After that, unplug and replug all USB cameras to get the udev rules applied.
+
+CoaXPress cameras (x86_64 only)
+-------------------------------
+For operating CoaXPress cameras, a driver must be installed first. After the 
+installation of the pylon 6 Camera Software Suite, this driver can be found in
+/opt/pylon/share/pylon/menable-driver-*.tar.gz.
+
+To install the CoaXPress driver, follow these steps: 
+
+  1. Change to the directory where you want to extract the driver to.
+  
+  2. Extract the driver archive:
+      sudo tar -C ./ -xzf /opt/pylon/share/pylon/menable-driver-*.tar.gz
+      
+  3. Follow the instructions in the ./menable-driver-*/linux/INSTALL file.
+      
+You need to reboot your system in order to load the driver.
+
+When starting an application (e.g., the pylon Viewer) that requires CoaXPress
+support, the GENICAM_GENTLXX_PATH environment variable (GENICAM_GENTL32_PATH for
+32-bit Systems and GENICAM_GENTL64_PATH for 64-bit systems) must be set.
+The /opt/pylon/share/pylon/README document explains how to set this variable. 
+
+Basler Supplementary Package for MPEG-4 (optional)
+----------------------------------------------------------------------
+The Basler Supplementary Package for MPEG-4 is an optional component that
+contains libraries for encoding MPEG-4 video files. You need to download
+this package separately from the Basler website in order to be able to create
+MPEG-4 files with pylon.
+
+
+Usage
+=====
+
+For further information about how to use the pylon 6 Camera Software Suite and
+how to configure cameras and the host system, please read the README document
+that will be installed here:
+      /opt/pylon/share/pylon/README
