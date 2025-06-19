@@ -23,7 +23,7 @@ If you use this software in your research, please cite it as:
 ```bibtex
 @software{gokkan_2021_real_time_pose,
   author       = {Ozan Gökkan},
-  title        = {Real-Time Image Segmentation & Pepper Peduncle Detection},
+  title        = {Real-time Pepper Peduncle Detection & Segmentation},
   year         = {2021},
   version      = {1.0.0},
 }
