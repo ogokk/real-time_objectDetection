@@ -16,4 +16,10 @@
 ![peduncle_gif](https://github.com/user-attachments/assets/79d08d38-2888-4ea2-bb02-1661fc45b9e4)
 
 
-<pre> ```bibtex @misc{gokkan_2021_pose_segmentation, author = {Ozan Gökkan}, title = {Real-Time Image Segmentation & Pose Detection}, year = 2021, howpublished = {\url{https://github.com/ogokk/real-time_objectDetection}}, note = {Accessed: 2025-06-19} } ``` </pre>
+@software{gokkan_2021_real_time_pose,
+  author       = {Ozan Gökkan},
+  title        = {Real-Time Image Segmentation \& Pose Detection: Pepper Peduncle Pose Detection \& Segmentation},
+  year         = {2021},
+  url          = {https://github.com/ogokk/real-time_objectDetection},
+  version      = {1.0.0},
+}
