@@ -7,8 +7,8 @@ The acquired images are processed using image segmentation and contour analysis 
 
 This project contributes toward automating labor-intensive tasks by integrating computer vision and robotic control for real-time decision-making in smart industrial IoT (IIoT) applications.
 
+![multi-sensor system](https://github.com/user-attachments/assets/7c8b489e-d38a-40ea-b333-c08c4b90dc9f)
 
-![multi-sensor system](https://github.com/user-attachments/assets/8f9fce95-7c58-4c3b-9f88-ab64a3192059)
 
 ## Image Segmentation & Pose Detection Results
 
