@@ -1,4 +1,9 @@
 ## Real-time Pepper Peduncle Detection & Segmentation
+
+![multi-sensor system](https://github.com/user-attachments/assets/7c8b489e-d38a-40ea-b333-c08c4b90dc9f)
+
+
+
 The objective of this project is to develop a software system for automated detection, segmentation, and relay trigger-based actuation module for determining pepper peduncle pose and orientation. The system is designed to accurately identify the position and alignment of the peduncle and initiate corrective actions through image-guided robotic platform. 
 
 The system processes image captured by a stationary Basler industrial camera positioned above a conveyor belt, on which peppers are continuously transported. Utilizing the camera interfaced with the Raspberry Pi via the pypylon that is the official python wrapper for the Basler pylon camera access, real-time image acquisition is performed to detect the peduncle and determine its relative orientation. 
@@ -7,7 +12,6 @@ The acquired images are processed using image segmentation and contour analysis 
 
 This project contributes toward automating labor-intensive tasks by integrating computer vision and robotic control for real-time decision-making in smart industrial IoT (IIoT) applications.
 
-![multi-sensor system](https://github.com/user-attachments/assets/7c8b489e-d38a-40ea-b333-c08c4b90dc9f)
 
 
 ## Image Segmentation & Pose Detection Results
